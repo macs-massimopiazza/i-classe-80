@@ -12,6 +12,7 @@
 
 1. creiamo file deploy.sh
 2. inseriamo i comandi visti qui sopra per fare un deploy
+
     ```
     #!/usr/bin/env sh
 
@@ -27,7 +28,7 @@
 
     git commit -m "New Deploy"
 
-    git push -f https://github.com/macs-massimopiazza/foca-spadaccina-54.git master:gh-pages
+    git push -f https://github.com/<username-github>/<nome-repo>.git master:gh-pages
 
     cd ..```
 2. diamo i permessi di esecuzione al file `chmod +x deploy.sh`
