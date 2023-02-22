@@ -24,6 +24,7 @@ export default {
         { testo: "uallallalla🐲🐨(❁´◡`❁)", nome: "Massimo" },
         { testo: "ci devo pensare🐫🍁🍂", nome: "Massimo" },
         { testo: "⚠ non prendete ispirazione da questo sito per progetti futuri ⚠", nome: "Massimo F." },
+        { testo: "Grazie mille a tutti e un augurio per un nuovo inizio!", nome: "Emanuela M." },
         { testo: "In Boolean cominci da solo e finisci con 36 amici", nome: "Cezarenne." },
         { testo: "⚠ Io preferivo 'ipsirazione' che la correzeio di Massimo F ⚠", nome: "Niki L." },
         { testo: "⚠ miglior website del pianeta ⚠", nome: "Dennis." },
@@ -39,7 +40,6 @@ export default {
       esercizi: [
         { link: "ciao", imagePath: "./images/cavallo.jpg" },
         { link: "SIUUUUUUUUUUUUUUUUUM by Trevor", imagePath: "./images/sium.jpg" },
-        { link: "ciao", imagePath: "./images/cavallo.jpg" },
       ]
     }
   }
@@ -55,7 +55,6 @@ export default {
 body {
   background-color: #fcff33;
 }
-
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -86,6 +85,4 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-</style>
-
+}</style>
