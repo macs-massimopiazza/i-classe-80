@@ -4,12 +4,14 @@
   <p style="color: orange;">💕I vostri insegnanti e coordinatori: Luca, Simone, Giovanni, Massimox2 💕</p>
   <h3 style="color: greenyellow;">🥰🤣😱🤧🐱‍👤 Qualche parola 🥰🤣😱🤧🐱‍👤</h3>
   <ul>
-    <li v-for="(frase, index) in frasi" :key="index">{{ frase.testo}}  <span style="font-style: italic;">  -{{ frase.nome}}</span></li> <span style="font-style: italic;"></span>
+    <li v-for="(frase, index) in frasi" :key="index">{{ frase.testo }} <span style="font-style: italic;"> -{{
+      frase.nome }}</span></li> <span style="font-style: italic;"></span>
   </ul>
 
   <h3 style="color: greenyellow;">😱🧙🏻‍♂️🥢 Qualche esercizio magico 😱🧙🏻‍♂️🥢</h3>
   <ul>
-    <li class="proj" v-for="(esercizio, index) in esercizi" :key="index"><img :src="esercizio.imagePath" alt=""><span>{{ esercizio.link }}</span>  </li>
+    <li class="proj" v-for="(esercizio, index) in esercizi" :key="index"><img :src="esercizio.imagePath" alt=""><span>{{
+      esercizio.link }}</span> </li>
   </ul>
 </template>
 
@@ -22,9 +24,10 @@ export default {
         { testo: "uallallalla🐲🐨(❁´◡`❁)", nome: "Massimo" },
         { testo: "ci devo pensare🐫🍁🍂", nome: "Massimo" },
         { testo: "⚠ non prendete ispirazione da questo sito per progetti futuri ⚠", nome: "Massimo F." },
+        { testo: "Grazie mille a tutti e un augurio per un nuovo inizio!", nome: "Emanuela M." },
       ],
       esercizi: [
-        { link: "ciao", imagePath: "./images/cavallo.jpg"}
+        { link: "ciao", imagePath: "./images/cavallo.jpg" }
       ]
     }
   }
@@ -32,35 +35,42 @@ export default {
 </script>
 
 <style>
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    background-color: #fcff33;
-  }
-  #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #5d00ff;
+* {
+  margin: 0;
+  padding: 0;
+}
 
-  }
-  img {
-    width: 600px;
-  }
-  li {
-    font-size: 20px;
-    margin-bottom: 5px
-  }
-  h1, h3, p, ul {
-    margin-bottom: 20px;
-  }
+body {
+  background-color: #fcff33;
+}
 
-  .proj {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-</style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #5d00ff;
+
+}
+
+img {
+  width: 600px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 5px
+}
+
+h1,
+h3,
+p,
+ul {
+  margin-bottom: 20px;
+}
+
+.proj {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}</style>
