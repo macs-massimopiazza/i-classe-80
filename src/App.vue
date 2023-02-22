@@ -22,6 +22,7 @@ export default {
         { testo: "uallallalla🐲🐨(❁´◡`❁)", nome: "Massimo" },
         { testo: "ci devo pensare🐫🍁🍂", nome: "Massimo" },
         { testo: "⚠ non prendete ispirazione da questo sito per progetti futuri ⚠", nome: "Massimo F." },
+        { testo: "In Boolean cominci da solo e finisci con 36 amici", nome: "Cezarenne." },
       ],
       esercizi: [
         { link: "ciao", imagePath: "./images/cavallo.jpg"}
