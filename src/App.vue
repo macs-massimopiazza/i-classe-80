@@ -29,6 +29,7 @@ export default {
         { testo: "⚠ miglior website del pianeta ⚠", nome: "Dennis." },
         { testo: "Nobel prize 2100 feels like: 'p>Lorem50000' 👽 " },
         { testo: "EVVIVA ER FULLSTACCKE", nome: "Federico" },
+        { testo: "W il front-end ♥", nome: "Valerio" },
       ],
       esercizi: [
         { link: "ciao", imagePath: "./images/cavallo.jpg" },
@@ -81,3 +82,4 @@ ul {
   align-items: center;
 }
 </style>
+
