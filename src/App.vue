@@ -13,11 +13,16 @@
     <li class="proj" v-for="(esercizio, index) in esercizi" :key="index"><img :src="esercizio.imagePath" alt=""><span>{{
       esercizio.link }}</span> </li>
   </ul>
+  <Meme></Meme>
 </template>
 
 <script>
+import Meme from './components/Meme.vue';
 export default {
   name: 'App',
+  components: {
+    Meme,
+  },
   data() {
     return {
       frasi: [
@@ -41,10 +46,19 @@ export default {
         { testo: "Poteva essere peggio.....poteva piovere ⚠", nome: "Yari N." },
         { testo: "Ceh, già alla fine del corso. Il tempo è volato⌚🥲", nome: "Davide P." },
         { testo: "Massimo Piazza amico dei cavalli", nome: "Luigi Caravelli" },
+        { testo: "Yhea Buddeee", nome: "Marco Scarpelli" },
+        { testo: "Yari è il drago del Frontend", nome: "Andrea B." },
       ],
       esercizi: [
         { link: "ciao", imagePath: "./images/cavallo.jpg" },
         { link: "SIUUUUUUUUUUUUUUUUUM by Trevor", imagePath: "./images/sium.jpg" },
+        { link: "ciao", imagePath: "./images/cavallo.jpg" },
+        { link: "TI VOGLIAMO BENE PIAZZA", imagePath: "./images/1.jpg" },
+        { link: "QUELLA VOLTA CHE ANDREA E' FINITO PER SBAGLIO NELL'OCEANO", imagePath: "./images/2.jpg" },
+        { link: "IL RIASSUNO DELLA PARTE DI BACKEND", imagePath: "./images/3.jpg" },
+        { link: "SIMO CI MANCHI", imagePath: "./images/4.jpg" },
+        { link: "SAN GIOVANNI DI BAVIERA", imagePath: "./images/5.jpg" },
+        { link: "Drago", imagePath: "./images/drago.jpeg" },
       ]
     }
   }
@@ -52,10 +66,41 @@ export default {
 </script>
 
 <style>
-* {
-  margin: 0;
-  padding: 0;
-}
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color:
+      linear-gradient(
+        to bottom,
+        hsl(329.79, 100%, 71.96%) 0%,
+        hsl(327.69, 76.7%, 72.77%) 7.8%,
+        hsl(323.82, 57.28%, 72.86%) 15.7%,
+        hsl(317.88, 42.18%, 72.66%) 23.6%,
+        hsl(309.34, 30.89%, 72.36%) 31.5%,
+        hsl(297.45, 23.79%, 72.34%) 39.3%,
+        hsl(284.95, 22.93%, 73.32%) 46.9%,
+        hsl(272.79, 22.19%, 74.12%) 54.3%,
+        hsl(259.15, 21.45%, 74.9%) 61.4%,
+        hsl(240.83, 20.57%, 75.78%) 68.3%,
+        hsl(220.99, 26.03%, 74.81%) 74.7%,
+        hsl(205.97, 33.16%, 73.34%) 80.8%,
+        hsl(194.84, 41.94%, 71.16%) 86.4%,
+        hsl(186.95, 52.3%, 67.82%) 91.5%,
+        hsl(181.71, 64.03%, 62.27%) 96.1%,
+        hsl(178.96, 100%, 45.1%) 100%
+
+        
+      );
+    
+  }
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #5d00ff;
 
 body {
   background-color: #fcff33;
