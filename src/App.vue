@@ -24,7 +24,7 @@ export default {
         { testo: "uallallalla🐲🐨(❁´◡`❁)", nome: "Massimo" },
         { testo: "ci devo pensare🐫🍁🍂", nome: "Massimo" },
         { testo: "⚠ non prendete ispirazione da questo sito per progetti futuri ⚠", nome: "Massimo F." },
-        { testo: "⚠ Io preferivo 'ipsirazione' ⚠", nome: "Niki L." },
+        { testo: "⚠ Io preferivo 'ipsirazione' che la correzeio di Massimo F ⚠", nome: "Niki L." },
       ],
       esercizi: [
         { link: "ciao", imagePath: "./images/cavallo.jpg" }
@@ -73,4 +73,5 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-}</style>
+}
+</style>
