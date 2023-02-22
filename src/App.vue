@@ -24,10 +24,17 @@ export default {
         { testo: "uallallalla🐲🐨(❁´◡`❁)", nome: "Massimo" },
         { testo: "ci devo pensare🐫🍁🍂", nome: "Massimo" },
         { testo: "⚠ non prendete ispirazione da questo sito per progetti futuri ⚠", nome: "Massimo F." },
+        { testo: "⚠ Io preferivo 'ipsirazione' che la correzeio di Massimo F ⚠", nome: "Niki L." },
+        { testo: "Buonanotte al secchio e BHOON"},
+        { testo: "⚠ miglior website del pianeta ⚠", nome: "Dennis." },
+        { testo: "Nobel prize 2100 feels like: 'p>Lorem50000' 👽 " },
+        { testo: "EVVIVA ER FULLSTACCKE", nome: "Federico" },
         { testo: "W il front-end ♥", nome: "Valerio" },
       ],
       esercizi: [
-        { link: "ciao", imagePath: "./images/cavallo.jpg" }
+        { link: "ciao", imagePath: "./images/cavallo.jpg" },
+        { link: "SIUUUUUUUUUUUUUUUUUM by Trevor", imagePath: "./images/sium.jpg" },
+        { link: "ciao", imagePath: "./images/cavallo.jpg" },
       ]
     }
   }
@@ -73,4 +80,6 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-}</style>
+}
+</style>
+
