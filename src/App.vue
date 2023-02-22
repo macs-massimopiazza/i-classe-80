@@ -6,7 +6,7 @@
   <ul>
     <li v-for="(frase, index) in frasi"
       :key="index">{{ frase.testo }} <span style="font-style: italic;"> -{{ frase.nome }}</span></li>
-
+  </ul>
   <h3 style="color: greenyellow;">😱🧙🏻‍♂️🥢 Qualche esercizio magico 😱🧙🏻‍♂️🥢</h3>
   <ul>
     <li class="proj" v-for="(esercizio, index) in esercizi" :key="index"><img :src="esercizio.imagePath" alt=""><span>{{

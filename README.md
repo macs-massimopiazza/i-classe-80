@@ -1,13 +1,13 @@
 ## deploy progetto vue su github pages
 
 1. in `vite.config.js` aggiungere `base: '/<nome-repo>/'`
-2. crea la build del progetto vue `npm run build`
-2. spostati in dist (con build di produzione appena creata) `cd dist`
-2. inizializza una nuova repo `git init`
-3. metti tutti i file in stagin tutti i file `git add .`
-4. fai un commit `git commit -m "New Deploy"`
-5. fai un push della build di produzione nel branch gh-pages `git push -f https://github.com/<username-github>/<nome-repo>.git master:gh-pages`
-6. torna indietro `cd ..`
+2. creare la build del progetto vue `npm run build`
+2. spostarsi in cartella dist (con build di produzione appena creata) `cd dist`
+2. inizializzare una nuova repo `git init`
+3. mettere tutti i file in staging tutti i file `git add .`
+4. fare un commit `git commit -m "New Deploy"`
+5. fare un push della build di produzione nel branch gh-pages `git push -f https://github.com/<username-github>/<nome-repo>.git master:gh-pages`
+6. tornare indietro `cd ..`
 7. OPZIONALE: eliminare la cartella dist `rm -rf dist`
 
 ### automatizziamo
