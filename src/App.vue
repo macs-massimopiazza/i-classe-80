@@ -21,7 +21,7 @@ export default {
       frasi: [
         { testo: "uallallalla🐲🐨(❁´◡`❁)", nome: "Massimo" },
         { testo: "ci devo pensare🐫🍁🍂", nome: "Massimo" },
-        { testo: "⚠non prendete ipsirazione da questo sito per progetti futuri⚠", nome: "Massimo" },
+        { testo: "⚠ non prendete ispirazione da questo sito per progetti futuri ⚠", nome: "Massimo F." },
       ],
       esercizi: [
         { link: "ciao", imagePath: "./images/cavallo.jpg"}
