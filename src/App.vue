@@ -24,6 +24,8 @@ export default {
         { testo: "uallallalla🐲🐨(❁´◡`❁)", nome: "Massimo" },
         { testo: "ci devo pensare🐫🍁🍂", nome: "Massimo" },
         { testo: "⚠ non prendete ispirazione da questo sito per progetti futuri ⚠", nome: "Massimo F." },
+        { testo: "Ma che bel cavallo" , nome: "Gianluca" },
+        { testo: "Se tu sei Amazon, va bene tutto... il problema è che tu non sei Amazon, sei solo l'ultimo pirla" , nome: "Anonimo" },
         { testo: "Vi voglio bene e non vedo l'ora di vedervi dal vivo con una pizza davanti. Tommaso" },
         { testo: "Grazie mille a tutti e un augurio per un nuovo inizio!", nome: "Emanuela M." },
         { testo: "In Boolean cominci da solo e finisci con 36 amici", nome: "Cezarenne." },
@@ -57,6 +59,7 @@ body {
   background-color: #fcff33;
 }
 
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -87,3 +90,4 @@ ul {
   flex-direction: column;
   align-items: center;
 }</style>
+
