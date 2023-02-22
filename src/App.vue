@@ -1,5 +1,5 @@
 <template>
-  <h1 style="color: red">🥰Viva Classe 80🥰</h1>
+  <h1 style="color: red">🥰Vivaaaaa Classe 80🥰</h1>
   <h3>yayaya</h3>
   <p style="color: orange">
     💕I vostri insegnanti e coordinatori: Luca, Simone, Giovanni, Massimox2 💕
