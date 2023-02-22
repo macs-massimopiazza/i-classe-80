@@ -46,6 +46,7 @@ export default {
         { testo: "Poteva essere peggio.....poteva piovere ⚠", nome: "Yari N." },
         { testo: "Ceh, già alla fine del corso. Il tempo è volato⌚🥲", nome: "Davide P."}
         { testo: "Massimo Piazza amico dei cavalli", nome: "Luigi Caravelli" },
+        { testo: "Yhea Buddeee", nome: "Marco Scarpelli" },
         { testo: "Yari è il drago del Frontend", nome: "Andrea B." },
       ],
       esercizi: [
