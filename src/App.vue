@@ -22,6 +22,7 @@ export default {
         { testo: "uallallalla🐲🐨(❁´◡`❁)", nome: "Massimo" },
         { testo: "ci devo pensare🐫🍁🍂", nome: "Massimo" },
         { testo: "⚠ non prendete ispirazione da questo sito per progetti futuri ⚠", nome: "Massimo F." },
+        { testo: "Poteva essere peggio.....poteva piovere ⚠", nome: "Yari N." },
       ],
       esercizi: [
         { link: "ciao", imagePath: "./images/cavallo.jpg"}
