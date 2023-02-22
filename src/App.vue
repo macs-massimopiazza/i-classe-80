@@ -11,11 +11,16 @@
   <ul>
     <li class="proj" v-for="(esercizio, index) in esercizi" :key="index"><img :src="esercizio.imagePath" alt=""><span>{{ esercizio.link }}</span>  </li>
   </ul>
+  <Meme></Meme>
 </template>
 
 <script>
+import Meme from './components/Meme.vue';
 export default {
   name: 'App',
+  components: {
+    Meme,
+  },
   data() {
     return {
       frasi: [
