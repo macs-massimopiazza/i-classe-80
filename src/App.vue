@@ -22,6 +22,7 @@ export default {
         { testo: "uallallalla🐲🐨(❁´◡`❁)", nome: "Massimo" },
         { testo: "ci devo pensare🐫🍁🍂", nome: "Massimo" },
         { testo: "⚠ non prendete ispirazione da questo sito per progetti futuri ⚠", nome: "Massimo F." },
+        { testo: "Buonanotte al secchio e BHOON"},
         { testo: "⚠ miglior website del pianeta ⚠", nome: "Dennis." },
       ],
       esercizi: [
