@@ -36,7 +36,8 @@ export default {
         { testo: "Nobel prize 2100 feels like: 'p>Lorem50000' 👽 " },
         { testo: "EVVIVA ER FULLSTACCKE", nome: "Federico" },
         { testo: "W il front-end ♥", nome: "Valerio" },
-        { testo: "6 mesi non sono mai volati così in fretta, spero di fare altre esperienze simili ;)", nome: "Vincenzo FOTI"},
+        { testo: "6 mesi non sono mai volati così in fretta, spero di fare altre esperienze simili ;)", nome: "Vincenzo FOTI" },
+        { testo: "W Bootstrap", nome: "Fabio" },
         { testo: "Poteva essere peggio.....poteva piovere ⚠", nome: "Yari N." },
         { testo: "Ceh, già alla fine del corso. Il tempo è volato⌚🥲", nome: "Davide P."}
         { testo: "Massimo Piazza amico dei cavalli", nome: "Luigi Caravelli" },
