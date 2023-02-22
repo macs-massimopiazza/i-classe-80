@@ -27,6 +27,7 @@ export default {
         { testo: "⚠ Io preferivo 'ipsirazione' che la correzeio di Massimo F ⚠", nome: "Niki L." },
         { testo: "Buonanotte al secchio e BHOON"},
         { testo: "⚠ miglior website del pianeta ⚠", nome: "Dennis." },
+        { testo: "Nobel prize 2100 feels like: 'p>Lorem50000' 👽 " },
       ],
       esercizi: [
         { link: "ciao", imagePath: "./images/cavallo.jpg" }
