@@ -30,6 +30,7 @@ export default {
         { testo: "Nobel prize 2100 feels like: 'p>Lorem50000' 👽 " },
         { testo: "EVVIVA ER FULLSTACCKE", nome: "Federico" },
         { testo: "W il front-end ♥", nome: "Valerio" },
+        { testo: "6 mesi non sono mai volati così in fretta, spero di fare altre esperienze simili ;)", nome: "Vincenzo FOTI"},
       ],
       esercizi: [
         { link: "ciao", imagePath: "./images/cavallo.jpg" },
