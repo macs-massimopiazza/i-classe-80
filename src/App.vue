@@ -24,6 +24,7 @@ export default {
         { testo: "uallallalla🐲🐨(❁´◡`❁)", nome: "Massimo" },
         { testo: "ci devo pensare🐫🍁🍂", nome: "Massimo" },
         { testo: "⚠ non prendete ispirazione da questo sito per progetti futuri ⚠", nome: "Massimo F." },
+        { testo: "Vi voglio bene e non vedo l'ora di vedervi dal vivo con una pizza davanti. Tommaso" },
         { testo: "Grazie mille a tutti e un augurio per un nuovo inizio!", nome: "Emanuela M." },
         { testo: "In Boolean cominci da solo e finisci con 36 amici", nome: "Cezarenne." },
         { testo: "⚠ Io preferivo 'ipsirazione' che la correzeio di Massimo F ⚠", nome: "Niki L." },
