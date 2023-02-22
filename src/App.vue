@@ -4,9 +4,8 @@
   <p style="color: orange;">💕I vostri insegnanti e coordinatori: Luca, Simone, Giovanni, Massimox2 💕</p>
   <h3 style="color: greenyellow;">🥰🤣😱🤧🐱‍👤 Qualche parola 🥰🤣😱🤧🐱‍👤</h3>
   <ul>
-    <li v-for="(frase, index) in frasi" :key="index">{{ frase.testo }} <span style="font-style: italic;"> -{{
-      frase.nome }}</span></li> <span style="font-style: italic;"></span>
-  </ul>
+    <li v-for="(frase, index) in frasi"
+      :key="index">{{ frase.testo }} <span style="font-style: italic;"> -{{ frase.nome }}</span></li>
 
   <h3 style="color: greenyellow;">😱🧙🏻‍♂️🥢 Qualche esercizio magico 😱🧙🏻‍♂️🥢</h3>
   <ul>
@@ -29,6 +28,7 @@ export default {
         { testo: "uallallalla🐲🐨(❁´◡`❁)", nome: "Massimo" },
         { testo: "ci devo pensare🐫🍁🍂", nome: "Massimo" },
         { testo: "⚠ non prendete ispirazione da questo sito per progetti futuri ⚠", nome: "Massimo F." },
+        { testo: "🙂", nome: "Ibra" },
         { testo: "Ma che bel cavallo", nome: "Gianluca" },
         { testo: "Se tu sei Amazon, va bene tutto... il problema è che tu non sei Amazon, sei solo l'ultimo pirla", nome: "Anonimo" },
         { testo: "Vi voglio bene e non vedo l'ora di vedervi dal vivo con una pizza davanti. Tommaso" },
@@ -95,17 +95,10 @@ export default {
       );
     
   }
-  #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #5d00ff;
 
 body {
   background-color: #fcff33;
 }
-
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
