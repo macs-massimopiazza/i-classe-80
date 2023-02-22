@@ -25,9 +25,21 @@ export default {
         { testo: "ci devo pensare🐫🍁🍂", nome: "Massimo" },
         { testo: "⚠ non prendete ispirazione da questo sito per progetti futuri ⚠", nome: "Massimo F." },
         { testo: "Grazie mille a tutti e un augurio per un nuovo inizio!", nome: "Emanuela M." },
+        { testo: "In Boolean cominci da solo e finisci con 36 amici", nome: "Cezarenne." },
+        { testo: "⚠ Io preferivo 'ipsirazione' che la correzeio di Massimo F ⚠", nome: "Niki L." },
+        { testo: "⚠ miglior website del pianeta ⚠", nome: "Dennis." },
+        { testo: "I'm Batman", nome: "Pierfrancesco S." },
+        { testo: "Buonanotte al secchio e BHOON", name: "abbohh"},
+        { testo: "Nobel prize 2100 feels like: 'p>Lorem50000' 👽 " },
+        { testo: "EVVIVA ER FULLSTACCKE", nome: "Federico" },
+        { testo: "W il front-end ♥", nome: "Valerio" },
+        { testo: "6 mesi non sono mai volati così in fretta, spero di fare altre esperienze simili ;)", nome: "Vincenzo FOTI"},
+        { testo: "Poteva essere peggio.....poteva piovere ⚠", nome: "Yari N." },
+        { testo: "Massimo Piazza amico dei cavalli", nome: "Luigi Caravelli" },
       ],
       esercizi: [
-        { link: "ciao", imagePath: "./images/cavallo.jpg" }
+        { link: "ciao", imagePath: "./images/cavallo.jpg" },
+        { link: "SIUUUUUUUUUUUUUUUUUM by Trevor", imagePath: "./images/sium.jpg" },
       ]
     }
   }
