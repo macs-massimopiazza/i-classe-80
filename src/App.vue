@@ -9,7 +9,7 @@
 
   <h3 style="color: greenyellow;">😱🧙🏻‍♂️🥢 Qualche esercizio magico 😱🧙🏻‍♂️🥢</h3>
   <ul>
-    <li v-for="(esercizo, index) in esercizi" :key="index">{{ esercizo.link}}  <img :src="getImage(esercizo.imagePath)" alt=""></li>
+    <li class="proj" v-for="(esercizio, index) in esercizi" :key="index"><img :src="esercizio.imagePath" alt=""><span>{{ esercizio.link }}</span>  </li>
   </ul>
 </template>
 
@@ -24,13 +24,8 @@ export default {
         { testo: "⚠non prendete ipsirazione da questo sito per progetti futuri⚠", nome: "Massimo" },
       ],
       esercizi: [
-        { link: "ciao", imagePath: "cavallo.jpg"}
+        { link: "ciao", imagePath: "./images/cavallo.jpg"}
       ]
-    }
-  },
-  methods: {
-    getImage(imagePath) {
-      return new URL('/src/assets/' + imagePath, import.meta.url);
     }
   }
 }
@@ -59,7 +54,13 @@ export default {
     font-size: 20px;
     margin-bottom: 5px
   }
-  h1, h3, img, p, ul {
+  h1, h3, p, ul {
     margin-bottom: 20px;
+  }
+
+  .proj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 </style>
