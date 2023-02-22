@@ -22,7 +22,7 @@ export default {
         { testo: "uallallalla🐲🐨(❁´◡`❁)", nome: "Massimo" },
         { testo: "ci devo pensare🐫🍁🍂", nome: "Massimo" },
         { testo: "⚠ non prendete ispirazione da questo sito per progetti futuri ⚠", nome: "Massimo F." },
-        { testo: "Vi voglio bene e non vedo l'ora di vedervi dal vivo con una pizza davanti" },
+        { testo: "Vi voglio bene e non vedo l'ora di vedervi dal vivo con una pizza davanti. Tommaso" },
       ],
       esercizi: [
         { link: "ciao", imagePath: "./images/cavallo.jpg"}
