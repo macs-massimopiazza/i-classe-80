@@ -1,4 +1,4 @@
-# deploy progetto vue su github pages
+## deploy progetto vue su github pages
 
 1. in `vite.config.js` aggiungere `base: '/<nome-repo>/'`
 2. crea la build del progetto vue `npm run build`
@@ -10,7 +10,7 @@
 6. torna indietro `cd ..`
 7. OPZIONALE: eliminare la cartella dist `rm -rf dist`
 
-### automatiziamo
+### automatizziamo
 
 1. creiamo file deploy.sh
 2. inseriamo i comandi visti qui sopra per fare un deploy
