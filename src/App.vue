@@ -25,10 +25,20 @@ export default {
         { testo: "ci devo pensare🐫🍁🍂", nome: "Massimo" },
         { testo: "⚠ non prendete ispirazione da questo sito per progetti futuri ⚠", nome: "Massimo F." },
         { testo: "I'm Batman", nome: "Pierfrancesco S." },
+        { testo: "⚠ Io preferivo 'ipsirazione' che la correzeio di Massimo F ⚠", nome: "Niki L." },
+        { testo: "Buonanotte al secchio e BHOON"},
+        { testo: "⚠ miglior website del pianeta ⚠", nome: "Dennis." },
+        { testo: "Nobel prize 2100 feels like: 'p>Lorem50000' 👽 " },
+        { testo: "EVVIVA ER FULLSTACCKE", nome: "Federico" },
+        { testo: "W il front-end ♥", nome: "Valerio" },
+        { testo: "6 mesi non sono mai volati così in fretta, spero di fare altre esperienze simili ;)", nome: "Vincenzo FOTI"},
+        { testo: "Poteva essere peggio.....poteva piovere ⚠", nome: "Yari N." },
+        { testo: "Massimo Piazza amico dei cavalli", nome: "Luigi Caravelli" },
       ],
       esercizi: [
         { link: "ciao", imagePath: "./images/cavallo.jpg" },
-        { link: "Per vincere la paura devi diventare paura. Devi bearti delle paure degli altri! E gli uomini temono soprattutto quello che non vedono!", imagePath: "./images/batman-127287.hero.jpg" },
+        { link: "SIUUUUUUUUUUUUUUUUUM by Trevor", imagePath: "./images/sium.jpg" },
+        { link: "ciao", imagePath: "./images/cavallo.jpg" },
       ]
     }
   }
@@ -44,6 +54,7 @@ export default {
 body {
   background-color: #fcff33;
 }
+
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -74,4 +85,6 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-}</style>
+}
+</style>
+
