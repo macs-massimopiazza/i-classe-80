@@ -30,7 +30,9 @@ export default {
         { testo: "Nobel prize 2100 feels like: 'p>Lorem50000' 👽 " },
       ],
       esercizi: [
-        { link: "ciao", imagePath: "./images/cavallo.jpg" }
+        { link: "ciao", imagePath: "./images/cavallo.jpg" },
+        { link: "SIUUUUUUUUUUUUUUUUUM by Trevor", imagePath: "./images/sium.jpg" },
+        { link: "ciao", imagePath: "./images/cavallo.jpg" },
       ]
     }
   }
