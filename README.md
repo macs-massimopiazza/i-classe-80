@@ -1,6 +1,6 @@
 ## deploy progetto vue su github pages
 
-1. in `vite.config.js` aggiungere `base: '/<nome-repo>/'`
+1. (da fare la prima volta) in `vite.config.js` aggiungere `base: '/<nome-repo>/'`
 2. creare la build del progetto vue `npm run build`
 2. spostarsi in cartella dist (con build di produzione appena creata) `cd dist`
 2. inizializzare una nuova repo `git init`
