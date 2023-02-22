@@ -32,6 +32,8 @@ export default {
         { testo: "W il front-end ♥", nome: "Valerio" },
         { testo: "6 mesi non sono mai volati così in fretta, spero di fare altre esperienze simili ;)", nome: "Vincenzo FOTI"},
         { testo: "Poteva essere peggio.....poteva piovere ⚠", nome: "Yari N." },
+        { testo: "Ceh, già alla fine del corso. Il tempo è volato⌚🥲", nome: "Davide P."}
+
       ],
       esercizi: [
         { link: "ciao", imagePath: "./images/cavallo.jpg" },
