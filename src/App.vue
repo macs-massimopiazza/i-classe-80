@@ -23,7 +23,7 @@ export default {
         { testo: "ci devo pensare🐫🍁🍂", nome: "Massimo" },
         { testo: "⚠ non prendete ispirazione da questo sito per progetti futuri ⚠", nome: "Massimo F." },
         { testo: "Ma che bel cavallo" , nome: "Gianluca" },
-        { testo: "Se tu sei Amazon, va bene tutto... il problema è che tu non sei Amazon, sei solo l'ultimo pirla" , nome: "" },
+        { testo: "Se tu sei Amazon, va bene tutto... il problema è che tu non sei Amazon, sei solo l'ultimo pirla" , nome: "Anonimo" },
       ],
       esercizi: [
         { link: "ciao", imagePath: "./images/cavallo.jpg"}
