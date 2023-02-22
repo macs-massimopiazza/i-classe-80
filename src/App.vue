@@ -40,11 +40,11 @@ export default {
         { link: "ciao", imagePath: "./images/cavallo.jpg" },
         { link: "SIUUUUUUUUUUUUUUUUUM by Trevor", imagePath: "./images/sium.jpg" },
         { link: "ciao", imagePath: "./images/cavallo.jpg" },
-        { link: "TI VOGLIAMO BENE PIAZZA", imagePath: "./images/1.jpeg" },
-        { link: "QUELLA VOLTA CHE ANDREA E' FINITO PER SBAGLIO NELL'OCEANO", imagePath: "./images/2.jpeg" },
-        { link: "IL RIASSUNO DELLA PARTE DI BACKEND", imagePath: "./images/3.jpeg" },
-        { link: "SIMO CI MANCHI", imagePath: "./images/4.jpeg" },
-        { link: "SAN GIOVANNI DI BAVIERA", imagePath: "./images/5.jpeg" },
+        { link: "TI VOGLIAMO BENE PIAZZA", imagePath: "./images/1.jpg" },
+        { link: "QUELLA VOLTA CHE ANDREA E' FINITO PER SBAGLIO NELL'OCEANO", imagePath: "./images/2.jpg" },
+        { link: "IL RIASSUNO DELLA PARTE DI BACKEND", imagePath: "./images/3.jpg" },
+        { link: "SIMO CI MANCHI", imagePath: "./images/4.jpg" },
+        { link: "SAN GIOVANNI DI BAVIERA", imagePath: "./images/5.jpg" },
       ]
     }
   }
