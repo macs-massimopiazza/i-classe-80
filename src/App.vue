@@ -25,12 +25,14 @@ export default {
         { testo: "ci devo pensare🐫🍁🍂", nome: "Massimo" },
         { testo: "⚠ non prendete ispirazione da questo sito per progetti futuri ⚠", nome: "Massimo F." },
         { testo: "⚠ Io preferivo 'ipsirazione' che la correzeio di Massimo F ⚠", nome: "Niki L." },
-        { testo: "Buonanotte al secchio e BHOON"},
+        { testo: "Buonanotte al secchio e BHOON" },
         { testo: "⚠ miglior website del pianeta ⚠", nome: "Dennis." },
         { testo: "Nobel prize 2100 feels like: 'p>Lorem50000' 👽 " },
         { testo: "EVVIVA ER FULLSTACCKE", nome: "Federico" },
         { testo: "W il front-end ♥", nome: "Valerio" },
-        { testo: "6 mesi non sono mai volati così in fretta, spero di fare altre esperienze simili ;)", nome: "Vincenzo FOTI"},
+        { testo: "6 mesi non sono mai volati così in fretta, spero di fare altre esperienze simili ;)", nome: "Vincenzo FOTI" },
+        { testo: "W Bootstrap", nome: "Fabio" },
+
       ],
       esercizi: [
         { link: "ciao", imagePath: "./images/cavallo.jpg" },
