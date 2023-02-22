@@ -28,6 +28,7 @@ export default {
         { testo: "Buonanotte al secchio e BHOON"},
         { testo: "⚠ miglior website del pianeta ⚠", nome: "Dennis." },
         { testo: "Nobel prize 2100 feels like: 'p>Lorem50000' 👽 " },
+        { testo: "EVVIVA ER FULLSTACCKE", nome: "Federico" },
       ],
       esercizi: [
         { link: "ciao", imagePath: "./images/cavallo.jpg" },
